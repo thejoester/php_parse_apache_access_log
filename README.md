@@ -5,7 +5,7 @@ a PHP class that can be used to parse the apache access.log file
 
 
 USAGE:
-
+<pre>
 include("class.access_log_parser.php"); //include the class file
 
 $apache_log_parser = new apache_log_parser(); // Create an apache log parser 
@@ -38,3 +38,4 @@ if ($apache_log_parser->open_log_file('/var/log/apache2/access.log')){ // Make s
 
 $apache_log_parser->close_log_file(); // close the log file 
 //$apache_log_parser->clear_log_file('/var/log/apache2/access.log'); // empty the file (optional)
+</pre>
