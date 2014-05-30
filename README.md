@@ -1,8 +1,7 @@
 php_parse_apache_access_log
 ===========================
 
-a PHP class that can be used to parse the apache access.log file
-
+a PHP class that can be used to parse the apache access.log file. The data can then be displayed in a custom manner that is easier to read or that only includes the data you really care about. You could also insert the data into a database so you could then sort or search it. 
 
 USAGE:
 <pre>
